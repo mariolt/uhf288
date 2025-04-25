@@ -1,0 +1,13 @@
+Message: O processo não pode acessar o arquivo 'dmdll.dll' porque ele está sendo usado por outro processo.
+Source: mscorlib
+StackTrace :   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   em DeviceManagement.MainForm..ctor() na D:\software\64bit_dm\DeviceManager\DeviceManager\MainForm.cs:linha 284
+   em DeviceManagement.Program.Main() na D:\software\64bit_dm\DeviceManager\DeviceManager\Program.cs:linha 54
+TargetSite :Void WinIOError(Int32, System.String)
+-------------------------------------------------------------------------
+Socket error!
+Socket error!
+Socket error!
+Socket error!
+Socket error!
